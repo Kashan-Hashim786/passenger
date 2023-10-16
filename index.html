@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Row_Counter</title>
+</head>
+<body style="background-image: url(railways_station.jpg);">
+    
+    <div class="container-fluid " >
+        <div class="border">
+        <div class="row" style="margin-top: 200px; margin-left: 25px;">
+           <h1>Row_Counter:-</h1>
+           <div>
+           <h2 id="count_el" >0</h2>
+         </div>
+ 
+         </div>
+
+          <!-- Create an increament button with the id="increment-btn" -->
+    <div class="row" style="margin-left: 25px; ">
+        <button id="increment-btn" onclick="increment()">INCREMENT</button>
+       </div>
+
+       <button id="save-btn" style="margin-left: 25px; background-color:tomato;" onclick="save()">SAVE</button>
+
+       <p id="save_El" style="font-weight: bold; margin-left: 25px; font-size: 20px; color:chartreuse;" >Previous entries: </p>
+    </div>
+       <script src="index.js"></script>
+     </div>
+        
+   
+</body>
+</html>

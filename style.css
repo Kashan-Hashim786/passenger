@@ -1,0 +1,46 @@
+.container-fluid{
+    width: 255px;
+    height: 850px;
+    /* background-image: url("railways_station.jpg");
+     */
+   margin: 0 auto;
+
+}
+
+.border{
+    background-image: url(1.jpg);
+    
+}
+
+
+body h1{
+    padding-top: 25px;
+    color:goldenrod;
+}
+
+body h2{
+   color:deeppink
+}
+
+#save_El p{
+    margin-bottom: 25px; 
+}
+
+
+
+button{
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+     margin-bottom: 5px; 
+    border-radius: 5px;
+    background-color:blue;
+}
+
+#count_el{
+    margin-left: 95px;
+    font-size: 50px;
+}
